@@ -28,6 +28,7 @@
                         <div class="form-group">
                             <label>Logo : </label>
                             <input type="file" name="logo">
+                            <p><small class="text-danger"><em>* Note : Image size should be: 100X100</em></small></p>
                         </div>
 
                         <button type="submit" class="btn btn-primary btn-block mt-5">Submit</button>
