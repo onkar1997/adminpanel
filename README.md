@@ -1,4 +1,4 @@
-1. Prot Title : Admin Panel 
+1. Project Title : Admin Panel
     An Admin Panel to manage records of Company and Employee
 
 2. How to Install and Run the Project :
@@ -12,14 +12,24 @@
     
     Open your .env file and change the database name (DB_DATABASE) to assignment0 or whatever u have, username (DB_USERNAME) and password (DB_PASSWORD) field correspond to your configuration.
     
-    Run php artisan key:generate
+    Run follwoing commands
+    
+    php artisan key:generate
+    
+    composer require laravel/breeze --dev
+    
+    php artisan breeze:install
     
     npm install && npm run dev
     
-    Run php artisan migrate
+    php artisan migrate
     
-    Run php artisan db:seed
+    php artisan db:seed
     
-    Run php artisan serve
+    php artisan serve
     
     Go to http://localhost:8000/
+    
+    Login credentials :
+    email : admin@admin.com
+    password : password
