@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fix {
+    clear: both;
+    overflow: hidden;
+    height: 90vh;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+/* Footer */
+footer {
+    background-color: rgba(4, 21, 32, 0.8);
+}
+
+
+/* Admin */
+.adminnavbar {
+    background-color: rgba(8, 56, 88, 0.8) !important;
+    padding: 20px !important;
+}
+
+.flex {
+    width: 75%;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: space-around;
+}
+
+.astyle a {
+    margin: 10px;
+    color: black;
+    font-size: 1.2em;
+}
+
+.astyle a:hover {
+    text-decoration: none;
+    color: black;
+}
+
