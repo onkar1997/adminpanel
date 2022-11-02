@@ -1,5 +1,5 @@
 1. Project Title : Admin Panel
-    An Admin Panel to manage records of Company and Employee
+    -To manage records of Company and Employee
 
 2. How to Install and Run the Project :
     Clone the project by copying the link from git hub and type in cmd git clone "link project github"
